@@ -4,14 +4,14 @@ const urlsToCache = [
   "/manifest.webmanifest",
   "/icons/icon-192.png",
   "/icons/icon-512.png",
-  "/src/main.js",
-  "/src/App.vue",
-  "/src/router/index.js",
-  "/src/store/index.js",
-  "/src/components/SlideShow.vue",
-  "/src/components/SettingsForm.vue",
-  "/src/views/SlideView.vue",
-  "/src/views/SettingsView.vue"
+  // "/src/main.js",
+  // "/src/App.vue",
+  // "/src/router/index.js",
+  // "/src/store/index.js",
+  // "/src/components/SlideShow.vue",
+  // "/src/components/SettingsForm.vue",
+  // "/src/views/SlideView.vue",
+  // "/src/views/SettingsView.vue"
 ];
 
 // インストール時にキャッシュ
@@ -43,4 +43,5 @@ self.addEventListener("activate", (event) => {
       );
     })
   );
+
 });
